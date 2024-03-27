@@ -1,0 +1,16 @@
+if SHIELD_KAWAUSO_LEFT
+
+config ZMK_KEYBOARD_NAME
+    default "Kawauso"
+
+config ZMK_SPLIT_ROLE_CENTRAL
+    default y
+
+endif
+
+if SHIELD_KAWAUSO_LEFT || SHIELD_KAWAUSO_RIGHT
+
+config ZMK_SPLIT
+    default y
+
+endif

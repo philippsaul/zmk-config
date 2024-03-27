@@ -1,0 +1,4 @@
+config SHIELD_KAWAUSO_LEFT
+    def_bool $(shields_list_contains,kawauso_left)
+config SHIELD_KAWAUSO_RIGHT
+    def_bool $(shields_list_contains,kawauso_right)

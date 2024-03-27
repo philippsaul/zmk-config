@@ -1,0 +1,13 @@
+file_format: "1"
+id: kawauso
+name: Kawauso
+type: shield
+url: https://github.com/Delzye/kawauso-zmk 
+requires: [pro_micro]
+exposes: [i2c_oled]
+features:
+  - keys
+  - display
+siblings:
+  - kawauso_left
+  - kawauso_right
