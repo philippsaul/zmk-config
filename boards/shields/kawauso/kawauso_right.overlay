@@ -1,4 +1,5 @@
 #include "kawauso.dtsi" // Notice that the main dtsi files are included in the overlay.
+
 &kscan0 {
     col-gpios
         = <&pro_micro 10 GPIO_ACTIVE_HIGH> // col1 in the schematic
