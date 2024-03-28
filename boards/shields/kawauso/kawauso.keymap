@@ -1,10 +1,6 @@
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/keys.h>
 
-#define DEFAULT 0
-#define LOWER   1
-#define RAISE   2
-
 / {
     sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
     keymap {
