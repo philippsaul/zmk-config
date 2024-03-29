@@ -22,3 +22,5 @@ include:
     shield: kawauso_left
   - board: nice_nano_v2
     shield: kawauso_right
+  - board: nice_nano_v2
+    shield: settings_reset
