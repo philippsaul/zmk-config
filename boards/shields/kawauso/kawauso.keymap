@@ -11,13 +11,13 @@
 // |   ESC   |    Q    |    W    |    E    |    R    |    T    |                                                        |    Y    |    U    |    I    |    O    |    P    |    \    |
 // |   TAB   |    A    |    S    |    D    |    F    |    G    |                                                        |    H    |    J    |    K    |    L    |    ;    |    '    |
 // |  SHIFT  |    Z    |    X    |    C    |    V    |    B    |   ESC   |                                    |   ESC   |    N    |    M    |    ,    |    .    |    /    |  R CTRL |
-//                               |   GUI   |   DEL   | RETURN  |  SPACE  | ESCAPE  |                |  RETURN |  SPACE  |   TAB   |   BSPC  |  R ALT  |
+//                     |  LALT   |   GUI   |  LOWER  |  SPACE  |  RAISE  | ESCAPE  |                |  RETURN |  LOWER  |   RET   |  RAISE  |   BSPC  |  RALT   |
             bindings = <
     &kp ESC    &kp N1   &kp N2   &kp N3    &kp N4    &kp N5                                                                   &kp N6    &kp N7    &kp N8    &kp N9    &kp N0    &kp BSLH
     &kp TAB    &kp Q    &kp W    &kp F     &kp P     &kp B                                                                    &kp J     &kp L     &kp U     &kp Y     &kp SEMI &kp MINUS
     &kp LSHIFT &kp A    &kp R    &kp S     &kp T     &kp G                                                                    &kp M     &kp N     &kp E     &kp I     &kp O    &kp SQT
     &kp LCTRL  &kp Z    &kp X    &kp C     &kp D     &kp V                                                                    &kp K     &kp H     &kp COMMA &kp DOT   &kp FSLH &kp RCTRL
-                                 &kp LALT  &kp LGUI   &mo 1 &mt LSHIFT SPACE &mo 1 &kp ESC    &kp ESC &mo 2 &mt RSHIFT RETURN &kp BSPC  &kp RGUI  &kp RALT
+                                 &kp LALT  &kp LGUI   &mo 1 &mt LSHIFT SPACE &mo 2 &kp ESC    &kp ESC &mo 1 &mt RSHIFT RETURN &mo 2     &kp BSPC  &kp RALT
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
@@ -32,9 +32,9 @@
 //                     |      |      |      |        |  |       |      |       |       |
             bindings = <
     &trans    &trans    &trans    &trans    &trans    &trans                                                      &trans    &trans    &trans    &trans    &trans    &trans
-    &kp F1     &kp F2           &kp F3            &kp F4            &kp F5       &kp F6                           &kp F7    &kp F8    &kp F9    &kp F10   &kp F11   &kp F12
-    &kp GRAVE  &kp EXCL         &kp AT            &kp HASH          &kp DOLLAR   &kp PRCNT                        &kp CARET &kp AMPS  &kp ASTRK &kp LPAR  &kp RPAR  &kp TILDE
-    &trans     &trans           &trans            &trans            &trans       &trans                           &trans    &kp MINUS &kp PLUS  &kp LBRC  &kp RBRC  &kp PIPE
+    &kp F1     &kp F2           &kp F3            &kp F4            &kp F5       &kp F6                           &kp F7    &kp LBKT  &kp RBKT  &kp ASTRK &kp PRCNT &kp F12
+    &kp GRAVE  &kp EXCL         &kp AT            &kp HASH          &kp DOLLAR   &kp PRCNT                        &kp CARET &kp LPAR  &kp RPAR  &kp EQUAL &kp PLUS  &kp TILDE
+    &trans     &trans           &trans            &trans            &trans       &trans                           &trans    &kp LBRC  &kp RBRC  &kp AMPS  &kp BSLH  &trans
                                 &trans            &trans       &trans    &trans   &trans    &trans      &trans    &trans &trans    &trans    &trans    &trans
             >;
 
