@@ -19,8 +19,8 @@
 ---
 include:
   - board: nice_nano_v2
-    shield: kawauso_left
+    shield: kawauso_left nice_view
   - board: nice_nano_v2
-    shield: kawauso_right
+    shield: kawauso_right nice_view
   - board: nice_nano_v2
     shield: settings_reset
