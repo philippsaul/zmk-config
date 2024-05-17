@@ -33,7 +33,7 @@
 //                     |      |      |      |        |  |       |      |       |       |
             bindings = <
     &kp F1     &kp F2           &kp F3            &kp F4            &kp F5       &kp F6                           &kp F7     &kp F8    &kp F9    &kp F10   &kp F11   &kp F12
-    &trans     &trans           &trans            &trans            &trans       &trans                           &kp DOLLAR &kp LBKT  &kp RBKT  &kp ASTRK &kp PRCNT &kp CIRC
+    &trans     &trans           &trans            &trans            &trans       &trans                           &kp DOLLAR &kp LBKT  &kp RBKT  &kp ASTRK &kp PRCNT &kp CARET
     &kp GRAVE  &kp EXCL         &kp AT            &kp HASH          &kp DOLLAR   &kp PRCNT                        &kp CARET  &kp LPAR  &kp RPAR  &kp EQUAL &kp PLUS  &kp TILDE
     &trans     &trans           &trans            &trans            &trans       &trans                           &kp PIPE   &kp LBRC  &kp RBRC  &kp AMPS  &kp BSLH  &trans
                                 &trans            &trans       &trans    &trans   &trans    &trans      &trans    &trans &trans    &trans    &trans    &trans
