@@ -37,7 +37,7 @@
     &trans     &kp QUESTION     &kp SLASH         &kp DOUBLE_QUOTES &kp LT       &kp GT                           &kp DOLLAR &kp LBKT  &kp RBKT  &kp ASTRK &kp PRCNT &kp CARET
     &kp GRAVE  &kp EXCL         &kp AT            &kp HASH          &kp DOLLAR   &kp PRCNT                        &kp CARET  &kp LPAR  &kp RPAR  &kp EQUAL &kp PLUS  &kp TILDE
     &trans     &trans           &trans            &kp MINUS         &kp SEMI     &trans                           &kp PIPE   &kp LBRC  &kp RBRC  &kp AMPS  &kp BSLH  &trans
-                                &trans            &trans       &trans    &trans   &trans    &trans      &trans    &trans &trans    &trans    &trans    &trans
+                                &trans            &trans       &trans    &trans   &trans    &trans      &trans    &trans &trans    &trans    &kp DEL    &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
